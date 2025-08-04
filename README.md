@@ -1,3 +1,9 @@
+# Fork
+
+This is a custom version compatible with [Krakend](https://github.com/krakend/krakend-ce) (2.6.0+ version) for developing plugins
+
+KrakenD version 2.6.0+ uses [Streadway's AMQP](https://github.com/rabbitmq/amqp091-go) under the hood, so the library cannot be used directly when developing plugins for KrakenD.
+
 # go-rabbitmq
 
 A wrapper of [rabbitmq/amqp091-go](https://github.com/rabbitmq/amqp091-go) that provides reconnection logic and sane defaults. Hit the project with a star if you find it useful ⭐
