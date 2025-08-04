@@ -1,4 +1,4 @@
-module github.com/wagslane/go-rabbitmq
+module github.com/dumb-tech/go-rabbitmq
 
 go 1.23.7
 
